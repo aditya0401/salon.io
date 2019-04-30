@@ -25,10 +25,10 @@ export class ReactiveFormComponent implements OnInit {
     // TODO: Use EventEmitter with form value
     console.log(this.feedbackForm.value);
   }
-  updateValue(newVal,newMsg){
+  updateValue(newVal,newMsg,gender){
     this.feedbackForm.setValue({name:newVal,message:newMsg,gender:'female'});
   }
-  partialUpdateValue(){
+  partialUpdateValue(newVal,newMsg,gender){
     this.feedbackForm.patchValue({name:'Nancy',gender:'female'});
   }
 
