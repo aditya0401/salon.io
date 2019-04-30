@@ -1,0 +1,9 @@
+<form #addSalonForm= "ngForm" (ngSubmit)="addSalon(addSalonForm)">
+    <mat-form-field>
+        <div class="col-md-12">
+            <input required matInput placeholder="Name" [(ngModel)]="model.name" name="name" #name="ngModel">
+        </div>
+      </mat-form-field>
+      <button mat-raised-button button color="primary" type="submit">Add</button>
+      
+</form>

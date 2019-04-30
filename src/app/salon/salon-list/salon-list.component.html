@@ -1,0 +1,20 @@
+<div>
+  <mat-card>
+      <mat-card-header>
+      <mat-card-title class="col-xs-12">
+        <div class="col-xs-8 no-padding">Salons List</div>
+        <div class="col-xs-4 no-padding">
+            <input matInput class="col-xs-12" type="text" [(ngModel)]="searchString" placeholder="&#xF002; search salon" autocomplete="off">   
+            <!-- <mat-icon class="col-xs-2 searchIcon">search</mat-icon>          -->
+        </div>
+      </mat-card-title>
+      
+    </mat-card-header>
+    <mat-card-content>
+                <div *ngFor= "let salon of salonList | filter:searchString" class="col-md-12 salonGrid"><a [routerLink]= "['/salon', salon.id]" routerLinkActive="active" [routerLinkActiveOptions]= '{exact: true}'>{{salon.name}}</a></div>
+     
+    </mat-card-content>
+    <a routerLink="/addSalon"><mat-icon class="addSalon">add_circle</mat-icon></a>
+  </mat-card>
+    
+</div>

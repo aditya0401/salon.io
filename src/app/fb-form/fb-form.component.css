@@ -1,0 +1,21 @@
+mat-card{
+    background: beige;
+    border: 3px solid #ccc;
+    border-radius: 0px;
+    margin: auto;
+    width: 50%;
+}
+#homePage img{
+    height: 30px;
+    margin: 10px;
+}
+#homePage{
+    cursor: pointer;
+    text-decoration: none;
+}
+/* .ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; 
+}
+.ng-invalid[required], .ng-invalid.required{
+    border-left: 5px solid red;
+} */

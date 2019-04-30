@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Adi Salon",
+        "address": "address 1",
+        "owner": "Aditya",
+        "contact": "78479458",
+        "type": "",
+        "bestprovider": "Beard",
+        "est_date": "Thu Apr 25 2018 13:35:21 GMT+0530 (India Standard Time)"
+    },
+    {
+        "id": 2,
+        "name": "Ayu Kaya Salon",
+        "address": "address 2",
+        "owner": "Ayushi",
+        "contact": "78479458",
+        "type": "",
+        "bestprovider": "SPA",
+        "est_date": "Thu June 29 2015 13:35:21 GMT+0530 (India Standard Time)"
+    },
+    {
+        "id": 3,
+        "name": "City Salon",
+        "address": "address 3",
+        "owner": "Anurag",
+        "contact": "78479458",
+        "type": "",
+        "bestprovider": "Haircut",
+        "est_date": "Thu May 01 2017 13:35:21 GMT+0530 (India Standard Time)"
+    }
+]

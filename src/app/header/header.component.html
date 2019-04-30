@@ -1,0 +1,20 @@
+<nav mat-tab-nav-bar>
+    <a mat-tab-link       
+       routerLink="/signup"
+       routerLinkActive #r="routerLinkActive"
+       [active]="r.isActive">
+      Register
+    </a>
+    <a mat-tab-link       
+       routerLink="/signin"
+       routerLinkActive #s="routerLinkActive"
+       [active]="s.isActive">
+      SignIn
+    </a>
+    <a mat-tab-link       
+       routerLink="/"
+       routerLinkActive #l="routerLinkActive"
+       [active]="l.isActive">
+      LogOut
+    </a>
+  </nav>
